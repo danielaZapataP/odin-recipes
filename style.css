@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.card {
+    list-style: none;
+    display: inline-block;
+    border: 2px solid orange;
+    width: 20%;
+    padding: 40px 10px 10px 10px;
+    text-align: center;
+    margin: 2%;
+}
+
+.food{
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.step, .ingredient {
+    margin: 10px;
+    padding: 3px;
+}
+
+.ingredient {
+    list-style-image:  url('./images/Pizza_for_dot_30x30.webp');
+}
+
+.description-text {
+    padding: 0px 20px;
+}
+
+.icon {
+    width: 35px;
+    height: auto;
+}
